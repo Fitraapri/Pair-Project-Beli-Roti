@@ -1,0 +1,23 @@
+[
+    {
+        "username": "admin1",
+        "email": "jedmans0@dailymail.co.uk",
+        "password": "12345",
+        "role": "admin",
+        "address": "Ciumbuleuit 94"
+    },
+    {
+        "username": "admin2",
+        "email": "bcallen2@linkedin.com",
+        "password": "12345",
+        "role": "admin",
+        "address": "Sulanjana 17"
+    },
+    {
+        "username": "admin3",
+        "email": "bgoskar4@biblegateway.com",
+        "password": "12345",
+        "role": "admin",
+        "address": "Sulanjana 14"
+    }
+]
