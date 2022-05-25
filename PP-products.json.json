@@ -1,0 +1,10 @@
+[{"name":"Flebaute","price":11000,"stock":5,"imageUrl":"http://dummyimage.com/175x100.png/ff4444/ffffff","like":1,"ProductDetailId":1},
+{"name":"Depen","price":99000,"stock":2,"imageUrl":"http://dummyimage.com/133x100.png/ff4444/ffffff","like":2,"ProductDetailId":2},
+{"name":"Bacter","price":81000,"stock":3,"imageUrl":"http://dummyimage.com/228x100.png/dddddd/000000","like":3,"ProductDetailId":3},
+{"name":"Maleate","price":49000,"stock":5,"imageUrl":"http://dummyimage.com/206x100.png/5fa2dd/ffffff","like":4,"ProductDetailId":4},
+{"name":"Corylus","price":14000,"stock":5,"imageUrl":"http://dummyimage.com/250x100.png/dddddd/000000","like":5,"ProductDetailId":5},
+{"name":"Tussin","price":33000,"stock":6,"imageUrl":"http://dummyimage.com/173x100.png/cc0000/ffffff","like":6,"ProductDetailId":6},
+{"name":"Ibuprofen","price":51000,"stock":0,"imageUrl":"http://dummyimage.com/106x100.png/dddddd/000000","like":7,"ProductDetailId":7},
+{"name":"Lorazepam","price":21000,"stock":10,"imageUrl":"http://dummyimage.com/108x100.png/ff4444/ffffff","like":8,"ProductDetailId":8},
+{"name":"Verelan","price":41000,"stock":7,"imageUrl":"http://dummyimage.com/124x100.png/5fa2dd/ffffff","like":9,"ProductDetailId":9},
+{"name":"Prenatal","price":68000,"stock":10,"imageUrl":"http://dummyimage.com/213x100.png/dddddd/000000","like":10,"ProductDetailId":10}]

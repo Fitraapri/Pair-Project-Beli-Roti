@@ -1,0 +1,52 @@
+[
+    {
+        "ingredients": "strawberry",
+        "createdAt": "22.05.2022",
+        "origin": "France"
+    },
+    {
+        "ingredients": "chocolate",
+        "createdAt": "22.05.2022",
+        "origin": "Italy"
+    },
+    {
+        "ingredients": "banana",
+        "createdAt": "23.05.2022",
+        "origin": "England"
+    },
+    {
+        "ingredients": "corn",
+        "createdAt": "23.05.2022",
+        "origin": "England"
+    },
+    {
+        "ingredients": "meat",
+        "createdAt": "22.05.2022",
+        "origin": "France"
+    },
+    {
+        "ingredients": "chocolate",
+        "createdAt": "24.05.2022",
+        "origin": "China"
+    },
+    {
+        "ingredients": "chocolate",
+        "createdAt": "22.05.2022",
+        "origin": "Moldova"
+    },
+    {
+        "ingredients": "banana",
+        "createdAt": "23.05.2022",
+        "origin": "Indonesia"
+    },
+    {
+        "ingredients": "meat",
+        "createdAt": "23.05.2022",
+        "origin": "Brazil"
+    },
+    {
+        "ingredients": "corn",
+        "createdAt": "23.05.2022",
+        "origin": "Russia"
+    }
+]
