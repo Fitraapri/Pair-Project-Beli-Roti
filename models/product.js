@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
 
      get formattedPrice() {
-      let formattedPrice = this.price.toLocaleString()
+      let formattedPrice = `Rp ${this.price.toLocaleString()}`
       return formattedPrice
     }
     static associate(models) {

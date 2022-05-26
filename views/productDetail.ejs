@@ -16,7 +16,14 @@
         <h1><%= detail.Product.name %> </h1>
         <h3>Country origin: <%= detail.origin %> </h3>
         <p>Ingredients: <%= detail.ingredients %> </p>
-        <p>Current stock are fresh from the oven from : <%= detail.dateFormat %> </p>
+        <% if(detail.Product.stock > 0){ %>
+            <p>Current stock are fresh from the oven from : <%= detail.dateFormat %> </p>
+         <% } %>
+        <% if(detail.Product.stock == 0){ %>
+            <p>
+                kosong ngab :( ,
+            </p>
+         <% } %>
         
         
         <a href="/buy/<%= detail.Product.id %>"><button>Buy</button></a>

@@ -14,12 +14,17 @@
         <img src="<%= product.imageUrl %>">
         <h3>stock left: <%= product.stock %> </h3>
     
-        <form action="/buy/<%=product.id%>">
+        <form action="/buy/<%=product.id%>" method="post">
             <div>
-                <label for="quantity">Quantity :</label>
+                <label for="quantity">Quantity</label>
                 <input type="number" name="quantity">
             </div>
+            <div>
+            </div>
             <button type="submit">Add to transaction</button>
+            <input type="hidden" name="UserId" value="1">
+            <input type="hidden" name="ProductId" value="<%=product.id%>">
+            <input type="hidden" name="price" value="<%=product.price%>">
         </form>
     </body>
 </center>
