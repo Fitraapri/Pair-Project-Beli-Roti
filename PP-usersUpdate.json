@@ -1,0 +1,23 @@
+[
+    {
+        "username": "admin1",
+        "email": "jedmans0@dailymail.co.uk",
+        "password": "$2a$10$RYe1y1ViRS8Wx4LaALLVwOk5/IXaam7FYjAuFf6ByKFspWXJ2iZWC",
+        "role": "admin",
+        "address": "Ciumbuleuit 94"
+    },
+    {
+        "username": "admin2",
+        "email": "bcallen2@linkedin.com",
+        "password": "$2a$10$RYe1y1ViRS8Wx4LaALLVwOk5/IXaam7FYjAuFf6ByKFspWXJ2iZWC",
+        "role": "admin",
+        "address": "Sulanjana 17"
+    },
+    {
+        "username": "admin3",
+        "email": "bgoskar4@biblegateway.com",
+        "password": "$2a$10$RYe1y1ViRS8Wx4LaALLVwOk5/IXaam7FYjAuFf6ByKFspWXJ2iZWC",
+        "role": "admin",
+        "address": "Sulanjana 14"
+    }
+]

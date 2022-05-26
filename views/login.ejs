@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <center>
+        <h1>HALO BESTIEROTI</h1>
+        <h2>...Sebelum beli roti di Beli Roti LOGIN dulu yha...</h2>
+        <h2>...Pelanggan baru REGISTER dulu yes...</h2>
+        <% if (error) { %>
+            <div style="color:red";><%= error %> </div>
+        <% } %>
+        <div>
+            <form action="/login" method="post">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                </div>
+                <div>
+                    <button type="submit">LOGIN</button>
+                </div>
+            </form>
+            <a href="/register"><button>REGISTER</button></a>
+    </center>
+    </div>
+</body>
+</html>

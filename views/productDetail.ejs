@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center>
+    <body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <%= JSON.stringify(detail) %> 
+        <div>
+            <img src="<%= detail.Product.imageUrl %>" >
+        </div>
+         
+        <h1><%= detail.Product.name %> </h1>
+        <h3>Country origin: <%= detail.origin %> </h3>
+        <p>Ingredients: <%= detail.ingredients %> </p>
+        <% if(detail.Product.stock > 0){ %>
+            <p>Current stock are fresh from the oven from : <%= detail.dateFormat %> </p>
+         <% } %>
+        <% if(detail.Product.stock == 0){ %>
+            <p>
+                kosong ngab :( ,
+            </p>
+         <% } %>
+        
+        
+        <a href="/buy/<%= detail.Product.id %>"><button>Buy</button></a>
+        <a href="/addlike/<%= detail.Product.id %>"><button>Like</button></a> <%= detail.Product.like %> people like this
+        </body>
+</center>
+</html>

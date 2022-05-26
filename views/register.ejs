@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>BELI ROTI</h1>
+        <h1>Register</h1>
+
+        <form action="/register" method="post">
+            <div>
+                <label for="username">Userame</label>
+                <input type="text" name="username" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="address" name="address" required>
+            </div>
+            <div>
+                <select name="role">
+                    <option disabled selected>--Select Role--</option>
+                    <option value="admin">Admin</option>
+                    <option value="customer">Customer</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </center>
+</body>
+
+</html>
