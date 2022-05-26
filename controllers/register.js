@@ -4,16 +4,17 @@ const { User } = require('../models')
 
 class Register {
     static regisForm(req, res) {
-        res.render('register')
+        const { error } = req.query
+        res.render('register', { error })
     }
     static postRegis(req, res) {
-        const { username, email, password, role } = req.body
-        User.create({ username, email, password, role })
+        const { username, email, password } = req.body
+        User.create({ username, email, password, role: 'User' })
             .then(newUser => {
                 res.redirect('/login')
             })
             .catch(err => {
-                res.send(err)
+                res.redirect(`/register?error=${err.errors[0].message}`)
             })
     }
 }

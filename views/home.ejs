@@ -7,14 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<h1>Home</h1>
-<hr>
-<br>
-<button><a href="/register">Register</a></button>
-<button><a href="/login">Login</a></button>
 
-<body>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div>
+        <a href="/admin"><button>Admin</button></a>
+        <a href="/login"><button>Login</button></a>
+        <a href="/logout"><button>Logout</button></a>
+        <a href="/register"><button>Register</button></a>
+    </div>
+    <center>
+        <h1>WELCOME TO BELI ROTI BESTIE !!!</h1>
+        <form action="/">
+            <select name="sort">Sort By
+                <option value="" selected disabled>-- Select --</option>
+                <option value="stock">Stock</option>
+                <option value="price">Price</option>
+            </select>
+            <button>Sort</button>
+        </form>
+        <table>
+            <thead>
 
+            </thead>
+            <tbody>
+                <% products.forEach(e=> { %>
+                    <tr>
+                        <td>
+                            <h3>
+                                <%= e.name %>
+                            </h3>
+
+                        </td>
+                        <td>
+                            <center>
+                                <% if(e.stock> 0){ %>
+                                    <h1>
+                                        <%= e.formattedPrice %>
+                                    </h1>
+                                    <% } %>
+                                        <% if(e.stock==0){ %>
+                                            <p>
+                                                kosong ngab :( ,
+                                            </p>
+                                            <% } %>
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                <% if(e.stock> 0){ %>
+                                    <h1>Stock: <%= e.stock %>
+                                    </h1>
+                                    <% } %>
+                                        <% if(e.stock==0){ %>
+                                            <p>
+                                                out from the oven soon !
+                                            </p>
+                                            <% } %>
+                            </center>
+
+
+
+                        </td>
+                        <td>
+                            <img src="<%= e.imageUrl %>">
+                        </td>
+                        <td>
+                            <% if (e.stock>0) { %>
+                                <a href="/buy/<%=e.id%>"><button>Buy</button></a>
+                                <% } %>
+                                    <a href="/addlike/<%=e.id%>"><button>Like</button></a>
+                                    <a href="/productdetail/<%=e.id%>"><button>Detail</button></a>
+                                    <div>
+
+                                        <%= e.like %> People like this
+                                    </div>
+                        </td>
+                    </tr>
+                    <% }) %>
+            </tbody>
+        </table>
+    </center>
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>TES</h1>
+
+<body>
+    <form action="/adminForm/edit/<%=product.id%>" method="post">
+
+        <label for="name">Product Name</label>
+        <br>
+        <input type="text" name="name">
+        <br>
+        <label for="price">Price</label>
+        <br>
+        <input type="number" name="price" value="<%=product.formattedPrice%>">
+        <br>
+        <label for="stock">Stock</label>
+        <br>
+        <input type="number" name="stock">
+        <br>
+        <label for="imageUrl">Image</label>
+        <br>
+        <input type="text" name="imageUrl">
+        <br>
+        <br>
+        <button type="submit">Save</button>
+        <button><a href="/adminForm">Cancel</a></button>
+
+    </form>
+</body>
+
+</html>

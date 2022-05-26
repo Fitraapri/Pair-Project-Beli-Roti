@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>History Transaction</h1>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Product Name</td>
+                <td>Price</td>
+                <td>Date Of Transaction</td>
+                <td>Stock Product</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(el=>{%>
+                <tr>
+                    <td>
+                        <%= el.Product.name%>
+                    </td>
+                    <td>
+                        <%= el.price%>
+                    </td>
+                    <td>
+                        <%= el.dateOfTransaction%>
+                    </td>
+                    <td>
+                        <%= el.Product.stock%>
+                    </td>
+                    <td>
+                        <a href="/admin/deleteTransaction/<%=el.id%>"><button>Delete</button></a>
+                    </td>
+                </tr>
+                <% }) %>
+        </tbody>
+    </table>
+</body>
+
+</html>

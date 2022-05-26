@@ -11,31 +11,29 @@
 <hr>
 
 <body>
-    <form action="/register" method="post">
-        <label for="username"> Username</label>
-        <br>
-        <input type="text" name="username">
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input type="email" name="email">
-        <br>
-        <label for="password">Password</label>
-        <br>
-        <input type="password" name="password">
-        <br>
-        <label for="role">Role</label>
-        <br>
-        <select name="role">
-            <option value="role" selected disabled>-- Select Role --</option>
-            <option value="admin">Admin</option>
-            <option value="user">User</option>
-        </select>
-        <br>
-        <br>
-        <button type="submit">Register</button>
-        <button><a href="/">Cancel</a></button>
-    </form>
+    <!-- <%= JSON.stringify(error) %> -->
+    <% if(error){%>
+        <p style="color: red;">
+            <%=error%>
+        </p>
+        <%}%>
+            <form action="/register" method="post">
+                <label for="username"> Username</label>
+                <br>
+                <input type="text" name="username">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email">
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password">
+                <br>
+                <br>
+                <button type="submit">Register</button>
+                <button><a href="/">Cancel</a></button>
+            </form>
 </body>
 
 </html>

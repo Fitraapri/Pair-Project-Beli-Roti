@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>BELI ROTI</h1>
+        <h1>Edit Product <%= data.Product.name %>
+        </h1>
+        <img src="<%= data.Product.imageUrl%>" alt="">
+
+        <form action="/admin/editproducts/<%= data.id %> " method="post">
+            <div>
+                <label for="name">Product name</label>
+                <input type="text" value="<%= data.Product.name %>" name="name">
+            </div>
+            <div>
+                <label for="price">Product price</label>
+                <input type="number" value="<%= data.Product.price %>" name="price">
+            </div>
+            <div>
+                <label for="stock">Product stock</label>
+                <input type="number" value="<%= data.Product.stock %>" name="stock" min="0">
+            </div>
+            <div>
+                <label for="imageUrl">Product image url</label>
+                <input type="url" value="<%= data.Product.imageUrl %>" name="imageUrl">
+            </div>
+            <div>
+                <label for="dateProduct">Product created date</label>
+                <input type="string" value="<%= data.dateFormat %>" name="dateProduct">
+            </div>
+            <div>
+                <label for="origin">Nation origin</label>
+                <input type="text" value="<%= data.origin %>" name="origin">
+            </div>
+            <div>
+                <label for="ingredients">Ingredients</label>
+                <input type="text" value="<%= data.ingredients %>" name="ingredients">
+            </div>
+            <div>
+                <input value="<%= data.Product.ProductDetailId%>" name="ProductDetailId" type="hidden">
+                <input value="<%= data.Product.like%>" name="like" type="hidden">
+                <button type="submit">UPDATE</button>
+            </div>
+        </form>
+</body>
+
+</html>
