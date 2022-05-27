@@ -17,6 +17,7 @@ class Login {
                     const userValid = bcryptjs.compareSync(password, user.password)
                     if (userValid) {
                         req.session.userId = user.id
+                        req.session.role = user.role
                         return res.redirect('/')
                     } else {
                         const error = 'invalid username or password'
