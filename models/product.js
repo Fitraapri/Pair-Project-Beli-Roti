@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
 
-    static formattedPrice() {
+    get formattedPrice() {
       let formattedPrice = this.price.toLocaleString("id-ID", { style: "currency", currency: "IDR" });
       return formattedPrice
     }
