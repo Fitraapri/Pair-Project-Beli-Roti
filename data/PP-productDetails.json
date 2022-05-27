@@ -1,52 +1,52 @@
 [
     {
         "ingredients": "strawberry",
-        "dateProduct": "22-05-2022",
+        "dateProduct": "2022-05-12",
         "origin": "France"
     },
     {
         "ingredients": "chocolate",
-        "dateProduct": "22-05-2022",
+        "dateProduct": "2022-05-22",
         "origin": "Italy"
     },
     {
         "ingredients": "banana",
-        "dateProduct": "23-05-2022",
+        "dateProduct": "2022-05-23",
         "origin": "England"
     },
     {
         "ingredients": "corn",
-        "dateProduct": "23-05-2022",
+        "dateProduct": "2022-05-23",
         "origin": "England"
     },
     {
         "ingredients": "meat",
-        "dateProduct": "22-05-2022",
+        "dateProduct": "2022-05-22",
         "origin": "France"
     },
     {
         "ingredients": "chocolate",
-        "dateProduct": "24-05-2022",
+        "dateProduct": "2022-05-24",
         "origin": "China"
     },
     {
         "ingredients": "chocolate",
-        "dateProduct": "22-05-2022",
+        "dateProduct": "2022-05-22",
         "origin": "Moldova"
     },
     {
         "ingredients": "banana",
-        "dateProduct": "23-05-2022",
+        "dateProduct": "2022-05-24",
         "origin": "Indonesia"
     },
     {
         "ingredients": "meat",
-        "dateProduct": "23-05-2022",
+        "dateProduct": "2022-05-22",
         "origin": "Brazil"
     },
     {
         "ingredients": "corn",
-        "dateProduct": "23-05-2022",
+        "dateProduct": "2022-05-24",
         "origin": "Russia"
     }
 ]

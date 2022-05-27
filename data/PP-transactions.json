@@ -2,70 +2,70 @@
     {
         "quantity": 8,
         "price": 0,
-        "dateOfTransaction": "23-05-2022",
+        "dateOfTransaction": "2022-05-22",
         "UserId": 4,
         "ProductId": 1
     },
     {
         "quantity": 6,
         "price": 0,
-        "dateOfTransaction": "24-05-2022",
+        "dateOfTransaction": "2022-05-12",
         "UserId": 4,
         "ProductId": 8
     },
     {
         "quantity": 8,
         "price": 0,
-        "dateOfTransaction": "22-05-2022",
+        "dateOfTransaction": "2022-05-14",
         "UserId": 4,
         "ProductId": 10
     },
     {
         "quantity": 9,
         "price": 0,
-        "dateOfTransaction": "23-05-2022",
+        "dateOfTransaction": "2022-05-22",
         "UserId": 2,
         "ProductId": 1
     },
     {
         "quantity": 6,
         "price": 0,
-        "dateOfTransaction": "22-05-2022",
+        "dateOfTransaction": "2022-05-15",
         "UserId": 2,
         "ProductId": 10
     },
     {
         "quantity": 1,
         "price": 0,
-        "dateOfTransaction": "22-05-2022",
+        "dateOfTransaction": "2022-05-13",
         "UserId": 7,
         "ProductId": 7
     },
     {
         "quantity": 2,
         "price": 0,
-        "dateOfTransaction": "24-05-2022",
+        "dateOfTransaction": "2022-05-12",
         "UserId": 6,
         "ProductId": 2
     },
     {
         "quantity": 10,
         "price": 0,
-        "dateOfTransaction": "23-05-2022",
+        "dateOfTransaction": "2022-05-21",
         "UserId": 3,
         "ProductId": 3
     },
     {
         "quantity": 10,
         "price": 0,
-        "dateOfTransaction": "23-05-2022",
+        "dateOfTransaction": "2022-05-24",
         "UserId": 5,
         "ProductId": 7
     },
     {
         "quantity": 9,
         "price": 0,
-        "dateOfTransaction": "22-05-2022",
+        "dateOfTransaction": "2022-05-21",
         "UserId": 9,
         "ProductId": 4
     }
