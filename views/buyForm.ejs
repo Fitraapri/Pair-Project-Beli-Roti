@@ -10,6 +10,9 @@
 <center>
 
     <body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <a href="/"><button>Home</button></a>
+        <a href="/admin"><button>Admin</button></a>
+        <a href="/logout"><button>Logout</button></a>
 
         <h1>Buy <%= product.name %> ?</h1>
         <img src="<%= product.imageUrl %>">
@@ -23,12 +26,13 @@
             </div>
             <div>
             </div>
-            <button type="submit">Add to transaction</button>
             <button type="button"><a href="/pdf/<%=product.id%>"> Create Invoice</a></button>
+            <button type="submit">Add to transaction</button>
             <input type="hidden" name="UserId" value="1">
             <input type="hidden" name="ProductId" value="<%=product.id%>">
             <input type="hidden" name="price" value="<%=product.price%>">
         </form>
+
     </body>
 </center>
 

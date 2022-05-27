@@ -13,6 +13,11 @@
         <h1>BELI ROTI</h1>
         <h1>Edit Product <%= data.Product.name %>
         </h1>
+        <br>
+        <a href="/"><button>Home</button></a>
+        <a href="/admin"><button>Admin</button></a>
+        <a href="/logout"><button>Logout</button></a>
+
         <img src="<%= data.Product.imageUrl%>" alt="">
 
         <form action="/admin/editproducts/<%= data.id %> " method="post">
