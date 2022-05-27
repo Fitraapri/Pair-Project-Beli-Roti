@@ -92,7 +92,7 @@ class Controller {
             ]
         })
             .then((users) => {
-                res.render('userslist', {
+                res.render('usersList', {
                     users
                 })
             })
