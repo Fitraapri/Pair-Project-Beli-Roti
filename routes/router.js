@@ -29,7 +29,7 @@ router.post('/buy/:id', Controller.createTransaction)
 router.use((req, res, next) => {
     if (req.session.role !== 'admin') {
         const error = 'Forbiden!'
-        res.redirect(`/?error=${error}`)
+        res.redirect('/')
     } else {
         next()
     }
