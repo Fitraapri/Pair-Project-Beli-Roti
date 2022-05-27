@@ -9,7 +9,7 @@ app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: true }))
 
 app.use(session({
-    secret: 'TEST',
+    secret: 'Beli-Roti',
     resave: false,
     saveUninitialized: false,
     cookie: {
