@@ -25,22 +25,21 @@
                             <%= e.Product.name %>
                         </td>
                         <td>
-                            <%= e.ingredients %>
+                            <%= e.Product.price %>
                         </td>
                         <td>
-                            <%= e.ingredients %>
+                            <%= e.dateFormat %>
                         </td>
                         <td>
-                            <% if(e.ingredients> 0){ %>
+                            <% if(e.Product.stock> 0){ %>
                                 <p>
-                                    <%= e.dateFormat %>
+                                    <%= e.Product.stock %>
                                 </p>
-                                <% } %>
-                                    <% if(e.ingredients){ %>
-                                        <p>
-                                            kosong ngab :(
-                                        </p>
-                                        <% } %>
+                                <% } else{ %>
+                                    <p>
+                                        kosong ngab :(
+                                    </p>
+                                    <% } %>
                         </td>
                         <td>
                             <a href="/admin/editproducts/<%= e.id %>"><button>Edit</button></a>
